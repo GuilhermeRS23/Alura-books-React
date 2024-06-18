@@ -1,15 +1,15 @@
 import Logo from "../Logo";
 import ListOptionHeader from "./ListOptionHeader";
-import './Header.css';
 import ListIconeHeader from "./ListIconeHeader";
+import { HeaderStyled } from './StyledHeader';
 
 const Header = () => {
     return (
-        <header className="cabecalho">
+        <HeaderStyled >
             <Logo />
             <ListOptionHeader />
             <ListIconeHeader />
-        </header>
+        </HeaderStyled>
     )
 }
 

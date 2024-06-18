@@ -1,3 +1,7 @@
+import { ExecutionProps, createGlobalStyle } from "styled-components";
+
+const GlobalStyle:  React.NamedExoticComponent<ExecutionProps | object> = createGlobalStyle`
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +15,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+  list-style: none;
 }
 
 a {
@@ -65,3 +73,6 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+`
+export default GlobalStyle;
