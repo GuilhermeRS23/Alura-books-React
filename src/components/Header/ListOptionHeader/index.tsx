@@ -6,7 +6,7 @@ const ListOptionHeader = () => {
     return (
         <ListOpcoes>
             {listaDeOpcoes.map((item) =>
-                <Opcao>{item}</Opcao>
+                <Opcao key={item}>{item}</Opcao>
             )}
         </ListOpcoes>
     )

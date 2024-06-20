@@ -8,7 +8,7 @@ const ListIconeHeader = () => {
     return (
         <ListIcones >
             {icones.map((icone) =>
-                <Icone>
+                <Icone key={icone}>
                     <img src={icone} alt="Logo" />
                 </Icone>)}
         </ListIcones>

@@ -2,15 +2,11 @@ import { useState } from "react";
 import livrosBanco from '../../db/livros.json';
 import Input from "../Input";
 import { Resultado, SearchSection, SubTitulo, Titulo } from "./SearchStyled";
+import { ILivro } from "../../shared/types/ILivros";
 
-interface Livro {
-    nome: string;
-    id: number;
-    capa: string;
-}
 
 const Search = () => {
-    const [busca, setBusca] = useState<Livro[]>([])
+    const [busca, setBusca] = useState<ILivro[]>([])
     const livros = livrosBanco.livros;
 
     return (
