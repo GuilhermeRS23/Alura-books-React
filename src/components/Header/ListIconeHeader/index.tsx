@@ -1,17 +1,17 @@
 import perfil from "../../../assets/imgs/perfil.svg";
 import sacola from "../../../assets/imgs/sacola.svg";
-import "./ListIconeHeader.css";
+import { Icone, ListIcones } from "../StyledHeader";
 
 const ListIconeHeader = () => {
     const icones = [sacola, perfil];
-    
+
     return (
-        <ul className="lista-icones">
+        <ListIcones >
             {icones.map((icone) =>
-                <li className="icone">
+                <Icone key={icone}>
                     <img src={icone} alt="Logo" />
-                </li>)}
-        </ul>
+                </Icone>)}
+        </ListIcones>
     )
 }
 

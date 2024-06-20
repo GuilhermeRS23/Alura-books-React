@@ -1,14 +1,22 @@
 import logo from '/src/assets/imgs/logo.svg';
-import './styles.css';
+import styled from 'styled-components';
+
+const LogoContainer = styled.div`
+     display: flex;
+     font-size: 1.75rem;
+`
+const LogoImg = styled.img`
+    margin: 15px;
+`
 
 const Logo = () => {
     return (
-        <div className='logo'>
-            <img className='logo-imagem'
-            src={logo} 
-            alt="Logo Alura Books" />
+        <LogoContainer >
+            <LogoImg
+                src={logo}
+                alt="Logo Alura Books" />
             <p><strong>Alura </strong>Books</p>
-        </div>
+        </LogoContainer>
     )
 }
 

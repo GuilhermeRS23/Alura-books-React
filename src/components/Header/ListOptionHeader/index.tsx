@@ -1,14 +1,14 @@
-import "./ListOptionHeader.css";
+import { ListOpcoes, Opcao } from "../StyledHeader";
 
 const ListOptionHeader = () => {
     const listaDeOpcoes = ["CATEGORIAS", "FAVORITOS", "MINHA ESTANTE"];
 
     return (
-        <ul className="lista-opcoes">
+        <ListOpcoes>
             {listaDeOpcoes.map((item) =>
-                <li className="lista-opcao">{item}</li>
+                <Opcao key={item}>{item}</Opcao>
             )}
-        </ul>
+        </ListOpcoes>
     )
 }
 

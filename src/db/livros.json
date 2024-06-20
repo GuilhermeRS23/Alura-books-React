@@ -1,0 +1,24 @@
+{
+    "livros": [
+        {
+            "nome": "Guia Front-End",
+            "id": 1,
+            "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8r35uRcGWVrviDV28zLuALLTV17-_J_zoA&s"
+        },
+        {
+            "nome": "Javascript",
+            "id": 2,
+            "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8r35uRcGWVrviDV28zLuALLTV17-_J_zoA&s"
+        },
+        {
+            "nome": "Python",
+            "id": 3,
+            "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8r35uRcGWVrviDV28zLuALLTV17-_J_zoA&s"
+        },
+        {
+            "nome": "TypeScript",
+            "id": 4,
+            "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8r35uRcGWVrviDV28zLuALLTV17-_J_zoA&s"
+        }
+    ]
+}
